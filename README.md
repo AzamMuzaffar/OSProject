@@ -5,7 +5,7 @@ Group Name: Group 1.
 Section: 5. 
 
 Team Mates:
-1. AZAM MUZAFFAR BIN ALDZAHIR and 2318593
+1. AZAM MUZAFFAR BIN ALDZAHIR  2318593
 2. __Fill name__ and __matric no__
 3. __Fill name__ and __matric no__
 
