@@ -1,11 +1,11 @@
 # OSProject Running Containers for Application Development
 
-Group Name: __Fill your team name__. 
+Group Name: Group 1. 
 
-Section: __Fill your class section__. 
+Section: 5. 
 
 Team Mates:
-1. __Fill name__ and __matric no__
+1. AZAM MUZAFFAR BIN ALDZAHIR and 2318593
 2. __Fill name__ and __matric no__
 3. __Fill name__ and __matric no__
 
@@ -26,7 +26,8 @@ Team Mates:
 
 1. What is the link of the fork OSProject in your repository. ***(1 mark)***(https://github.com/AzamMuzaffar/OSProject).
 
-2. How many files and folders are in this repository. ***(1 mark)*** 7 files and 1 folder.
+2. How many files and folders are in this repository. ***(1 mark)*** 
+7 files and 1 folder.
 
 
 ## Exploring github codespaces
