@@ -84,22 +84,272 @@ codespace
 Look at the TERMINAL tab. Run the following commands and provide the output here. 
 
 1. Run the command **pwd** . ***(1 mark)*** __Fill answer here__.
+@AdoTENKA ➜ /workspaces/OSProject (main) $ pwd
+/workspaces/OSProject
 2. Run the command **cat /etc/passwd** . ***(1 mark)*** __Fill answer here__.
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+_apt:x:100:65534::/nonexistent:/usr/sbin/nologin
+systemd-timesync:x:101:101:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+systemd-network:x:102:103:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-resolve:x:103:104:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+messagebus:x:104:105::/nonexistent:/usr/sbin/nologin
+codespace:x:1000:1000::/home/codespace:/bin/bash
+sshd:x:105:65534::/run/sshd:/usr/sbin/nologin
 3. Run the command **df** . ***(1 mark)*** __Fill answer here__.
+@AdoTENKA ➜ /workspaces/OSProject (main) $ df
+Filesystem     1K-blocks     Used Available Use% Mounted on
+overlay         32847680 10705788  20447792  35% /
+tmpfs              65536        0     65536   0% /dev
+shm                65536        8     65528   1% /dev/shm
+/dev/root       30298176 25320876   4960916  84% /vscode
+/dev/sda1       46127956 18630472  25121908  43% /tmp
+/dev/loop4      32847680 10705788  20447792  35% /workspaces
 4. Run the command **du** . ***(1 mark)*** __Fill answer here__.
+@AdoTENKA ➜ /workspaces/OSProject (main) $ du
+8       ./.git/refs/heads
+4       ./.git/refs/tags
+8       ./.git/refs/remotes/origin
+12      ./.git/refs/remotes
+28      ./.git/refs
+68      ./.git/hooks
+8       ./.git/info
+4       ./.git/lfs/tmp
+8       ./.git/lfs
+4       ./.git/branches
+8       ./.git/objects/74
+8       ./.git/objects/fa
+12      ./.git/objects/af
+8       ./.git/objects/83
+12      ./.git/objects/96
+8       ./.git/objects/c0
+12      ./.git/objects/ad
+16      ./.git/objects/93
+12      ./.git/objects/17
+8       ./.git/objects/24
+8       ./.git/objects/1b
+8       ./.git/objects/27
+8       ./.git/objects/d8
+12      ./.git/objects/14
+12      ./.git/objects/70
+8       ./.git/objects/0b
+8       ./.git/objects/2b
+8       ./.git/objects/47
+8       ./.git/objects/cd
+12      ./.git/objects/44
+8       ./.git/objects/ae
+12      ./.git/objects/72
+8       ./.git/objects/e9
+8       ./.git/objects/71
+12      ./.git/objects/64
+8       ./.git/objects/2a
+16      ./.git/objects/fb
+8       ./.git/objects/a3
+8       ./.git/objects/0d
+8       ./.git/objects/c3
+12      ./.git/objects/f9
+12      ./.git/objects/2e
+8       ./.git/objects/7b
+8       ./.git/objects/04
+8       ./.git/objects/91
+12      ./.git/objects/62
+12      ./.git/objects/3d
+16      ./.git/objects/1c
+8       ./.git/objects/f6
+8       ./.git/objects/d9
+8       ./.git/objects/b6
+12      ./.git/objects/88
+8       ./.git/objects/4f
+8       ./.git/objects/77
+8       ./.git/objects/fe
+4       ./.git/objects/info
+8       ./.git/objects/eb
+8       ./.git/objects/41
+12      ./.git/objects/29
+8       ./.git/objects/e7
+8       ./.git/objects/f7
+8       ./.git/objects/fc
+12      ./.git/objects/4b
+8       ./.git/objects/32
+8       ./.git/objects/b2
+8       ./.git/objects/20
+8       ./.git/objects/ab
+20      ./.git/objects/73
+8       ./.git/objects/52
+8       ./.git/objects/c6
+1828    ./.git/objects/pack
+8       ./.git/objects/86
+12      ./.git/objects/e5
+8       ./.git/objects/58
+8       ./.git/objects/f2
+8       ./.git/objects/a4
+12      ./.git/objects/6e
+12      ./.git/objects/2c
+8       ./.git/objects/49
+8       ./.git/objects/fd
+8       ./.git/objects/81
+8       ./.git/objects/3f
+8       ./.git/objects/4a
+12      ./.git/objects/aa
+8       ./.git/objects/a6
+12      ./.git/objects/bf
+8       ./.git/objects/b9
+8       ./.git/objects/3a
+12      ./.git/objects/ff
+8       ./.git/objects/1f
+12      ./.git/objects/b5
+12      ./.git/objects/d2
+8       ./.git/objects/60
+8       ./.git/objects/cb
+2624    ./.git/objects
+8       ./.git/logs/refs/heads
+8       ./.git/logs/refs/remotes/origin
+12      ./.git/logs/refs/remotes
+24      ./.git/logs/refs
+32      ./.git/logs
+2800    ./.git
+1972    ./images
+4796    .
 5. Run the command **ls** . ***(1 mark)*** __Fill answer here__.
+@AdoTENKA ➜ /workspaces/OSProject (main) $ ls
+README.md  images
 6. Run the command **ls -asl** . ***(1 mark)*** __Fill answer here__.
+@AdoTENKA ➜ /workspaces/OSProject (main) $ ls -asl
+total 40
+ 4 drwxrwxrwx+ 4 codespace root  4096 Jan 26 14:08 .
+ 4 drwxr-xrwx+ 5 codespace root  4096 Jan 26 14:08 ..
+ 4 drwxrwxrwx+ 9 codespace root  4096 Jan 26 14:08 .git
+24 -rw-rw-rw-  1 codespace root 22378 Jan 26 14:16 README.md
+ 4 drwxrwxrwx+ 2 codespace root  4096 Jan 26 14:08 images
 7. Run the command **free -h** . ***(1 mark)*** __Fill answer here__.
+@AdoTENKA ➜ /workspaces/OSProject (main) $ free -h
+              total        used        free      shared  buff/cache   available
+Mem:          7.7Gi       1.7Gi       305Mi        62Mi       5.7Gi       5.7Gi
+Swap:            0B          0B          0B
 8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** __Fill answer here__.
+@AdoTENKA ➜ /workspaces/OSProject (main) $ cat /proc/cpuinfo
+processor       : 0
+vendor_id       : AuthenticAMD
+cpu family      : 25
+model           : 1
+model name      : AMD EPYC 7763 64-Core Processor
+stepping        : 1
+microcode       : 0xffffffff
+cpu MHz         : 3243.191
+cache size      : 512 KB
+physical id     : 0
+siblings        : 2
+core id         : 0
+cpu cores       : 1
+apicid          : 0
+initial apicid  : 0
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 13
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext invpcid_single vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr rdpru arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm
+bugs            : sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso
+bogomips        : 4890.87
+TLB size        : 2560 4K pages
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 48 bits physical, 48 bits virtual
+power management:
+
+processor       : 1
+vendor_id       : AuthenticAMD
+cpu family      : 25
+model           : 1
+model name      : AMD EPYC 7763 64-Core Processor
+stepping        : 1
+microcode       : 0xffffffff
+cpu MHz         : 3242.985
+cache size      : 512 KB
+physical id     : 0
+siblings        : 2
+core id         : 0
+cpu cores       : 1
+apicid          : 1
+initial apicid  : 1
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 13
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext invpcid_single vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr rdpru arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm
+bugs            : sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso
+bogomips        : 4890.87
+TLB size        : 2560 4K pages
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 48 bits physical, 48 bits virtual
+power management:
+
 9. Run the command **top** and type **q** to quit. ***(1 mark)*** __Fill answer here__.
+processor       : 1
+vendor_id       : AuthenticAMD
+cpu family      : 25
+model           : 1
+model name      : AMD EPYC 7763 64-Core Processor
+stepping        : 1
+microcode       : 0xffffffff
+cpu MHz         : 3242.985
+cache size      : 512 KB
+physical id     : 0
+siblings        : 2
+core id         : 0
+cpu cores       : 1
+apicid          : 1
+initial apicid  : 1
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 13
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext invpcid_single vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr rdpru arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm
+top - 14:18:21 up 15 min,  0 users,  load average: 0.20, 1.05, 1.22
+Tasks:  24 total,   1 running,  23 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.3 us,  4.3 sy,  0.0 ni, 92.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   7929.6 total,    310.0 free,   1727.0 used,   5892.6 buff/cache
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   5824.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                                
+   7125 codespa+  20   0   41.5g 322148  50304 S   1.3   4.0   0:09.79 node                                                                   
+   2174 codespa+  20   0   41.5g 329424  50304 S   1.0   4.1   0:15.34 node                                                                   
+   2914 codespa+  20   0   11.2g  65436  44160 S   0.7   0.8   0:01.12 node 
 10. Run the command **uname -a**. ***(1 mark)*** __Fill answer here__.
+@AdoTENKA ➜ /workspaces/OSProject (main) $ uname -a
+Linux codespaces-314eff 6.5.0-1025-azure #26~22.04.1-Ubuntu SMP Thu Jul 11 22:33:04 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
 11. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
+5.7Gi
 12. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
+20447792
 13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
+Linux version: 6.5.0-1025-azure, Ubuntu 22.04.1
+Hardware architecture: x86_64
 14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
+ls is used when we only need file and directory names for simplicity.
+ls -asl is used when we need more detailed information, such as file permissions, sizes, or hidden files.
 15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
+2560 4K pages
 16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
+3243.191 MHz for processor 0 and 3242.985 MHz for processor 1
 17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
+node process with the PID 7125 with the usage of 1.3% of the CPU.
 
 ## Running your own container instance.
 
@@ -160,7 +410,9 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 ***Questions:***
 
 1. Are files in the container persistent. Why not?. ***(1 mark)*** __Fill answer here__.
+No they are not. Because containers are generally temporary. When the container stops or deleted the files inside will also be lost.
 2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Fill answer here__.
+Yes and each instances would be isolated and run independently.
 
 ## Running your own container with persistent storage
 
@@ -234,10 +486,28 @@ docker run -itd --net rednet --name c2 busybox sh
 ***Questions:***
 
 1. Describe what is busybox and what is command switch **--name** is for? . ***(2 mark)*** __Fill answer here__.
+
+BusyBox is a small software package that provides many basic Linux commands in a single executable file. It's used in containers because it includes simple yet essential utilities like sh (shell), ls, cat, echo, and more, making it ideal for environments where you don't need a full operating system but still need to run commands.
+
+The --name command switch in Docker is used to assign a custom name to a container. Instead of Docker automatically giving the container a random name, you can use --name to specify a name for easier identification.
 2. Explore the network using the command ```docker network ls```, show the output of your terminal. ***(1 mark)*** __Fill answer here__.
+@AdoTENKA ➜ /workspaces/OSProject (main) $ docker network ls
+NETWORK ID     NAME      DRIVER    SCOPE
+f6e4451b687e   bluenet   bridge    local
+8560e59214cc   bridge    bridge    local
+a73b6578e03a   host      host      local
+f8f40914369a   none      null      local
+00325ec9adf6   rednet    bridge    local
 3. Using ```docker inspect c1``` and ```docker inspect c2``` inscpect the two network. What is the gateway of bluenet and rednet.? ***(1 mark)*** __Fill answer here__.
+Gateway c1: 172.18.0.1
+Gateway c2: 172.19.0.1
 4. What is the network address for the running container c1 and c2? ***(1 mark)*** __Fill answer here__.
+IP Address c1: 172.18.0.2
+IP Address c2: 172.19.0.2
 5. Using the command ```docker exec c1 ping c2```, which basically tries to do a ping from container c1 to c2. Are you able to ping? Show your output . ***(1 mark)*** __Fill answer here__.
+No.
+@AdoTENKA ➜ /workspaces/OSProject (main) $ docker exec c1 ping c2
+ping: bad address 'c2'
 
 ## Bridging two SUB Networks
 1. Let's try this again by creating a network to bridge the two containers in the two subnetworks
