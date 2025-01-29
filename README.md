@@ -682,8 +682,14 @@ You have now set up a Node.js application in a Docker container on nodejsnet net
 
 ***Questions:***
 
-1. What is the output of step 5 above, explain the error? ***(1 mark)*** __Fill answer here__.
-2. Show the instruction needed to make this work. ***(1 mark)*** __Fill answer here__.
+1. What is the output of step 5 above, explain the error? ***(1 mark)*** Failed to connect to localhost port 3000: Connection refused.
+The Node.js application running in the nodejsnet network is trying to connect to the MySQL container using the hostname mysql-container, but MySQL is in a separate network (mysqlnet). Since the two networks are isolated from each other, the Node.js container cannot resolve or reach the MySQL container.
+
+2. Show the instruction needed to make this work. ***(1 mark)***
+Step 1: Create a New Network
+Step 2: Connect Both Containers to the New Network
+Step 3: Verify the Network Connections
+Step 4: Restart the Node.js Container
 
 
 
