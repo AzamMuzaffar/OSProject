@@ -438,7 +438,9 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 sudo chown -R codespace:codespace myroot
 
 ```
-*** __Fill answer here__.***
+The file are created with codespace:codespace as the user and group on the host virtual machine
+Using sudo and chown command does succesfully changes its permission as shown using ls -1 command
+![alt text](image.png)
 
 ## You are on your own, create your own static webpage
 
