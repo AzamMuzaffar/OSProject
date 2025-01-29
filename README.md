@@ -538,8 +538,18 @@ docker exec c1 ping c2
 ```
 ***Questions:***
 
-1. Are you able to ping? Show your output . ***(1 mark)*** __Fill answer here__.
-2. What is different from the previous ping in the section above? ***(1 mark)*** __Fill answer here__.
+1. Are you able to ping? Show your output . ***(1 mark)*** 
+
+PING c2 (172.18.0.2) 56(84) bytes of data.
+64 bytes from 172.18.0.2: icmp_seq=1 ttl=64 time=0.097 ms
+64 bytes from 172.18.0.2: icmp_seq=2 ttl=64 time=0.090 ms
+64 bytes from 172.18.0.2: icmp_seq=3 ttl=64 time=0.094 ms
+64 bytes from 172.18.0.2: icmp_seq=4 ttl=64 time=0.089 ms
+
+
+2. What is different from the previous ping in the section above? ***(1 mark)*** 
+
+In the previous test (before bridging networks), the two containers were in separate networks, so ping failed.Now, after bridging with bridgenet, ping succeeds because both containers can communicate.
 
 ## Intermediate Level (10 marks bonus)
 
