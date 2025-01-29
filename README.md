@@ -438,9 +438,11 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 sudo chown -R codespace:codespace myroot
 
 ```
-The file are created with codespace:codespace as the user and group on the host virtual machine
-Using sudo and chown command does succesfully changes its permission as shown using ls -1 command
-![alt text](image.png)
+Answers :
+1. The file are created with codespace:codespace as the user and group on the host virtual machine
+2. Using sudo and chown command does succesfully changes its permission as shown using ls -1 command
+ 
+<img src="./images/PersistStorage.png" width="50%">
 
 ## You are on your own, create your own static webpage
 
@@ -466,9 +468,24 @@ docker run --detach -v /workspaces/OSProject/webpage:/usr/local/apache2/htdocs/ 
 
 ***Questions:***
 
-1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** __Fill answer here__.
-2. What port is the apache web server running. ***(1 mark)*** __Fill answer here__.
+1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** 
+    
+    The permissions are 777 (rwxrwxrwx) and the directory is owned by user 1000 and group 1000.
+
+2. What port is the apache web server running. ***(1 mark)*** 
+
+    The apache web server are running on port 80
+
 3. What port is open for http protocol on the host machine? ***(1 mark)*** __Fill answer here__.
+
+    The host machine uses port 8080 for http protocol
+
+    Evidences:
+    
+  <img src="./images/docker_ps.png" width="70%">
+
+  <img src="./images/permission_htdoc.png" width="70%">
+
 
 ## Create SUB Networks
 
@@ -676,3 +693,6 @@ You have now set up a Node.js application in a Docker container on nodejsnet net
 2. Check your repository link, to see if all the files and answers are included in the repository. 
 3. Submit through italeem, by providing the link to your repository.
 4. Due by ***AS STATED IN ITALEEM SYSTEM***
+
+
+[def]: image.png
